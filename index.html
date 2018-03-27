@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherApp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<html>
+<head>
+	<title>WeatherApp</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+
+	<body background="img/pexels.jpeg">
+	<div class="jumbotron jumbotron-fluid" style="margin: 35px;">
+		<div class="container" >
+			<h1 class="display-3">WeatherApp</h1>
+			<p class="lead">See the climate conditions wherever you are!</p>
+
+			<div class="card-columns" >
+						  <div class="card">
+						    <div class="card-body">
+						    					<span id="weatherDataMainTemp_min"></span>
+												<span id="weatherDataMainTemp_max"></span>
+												<span id="weatherDataMainVisi"></span>
+												<span id="weatherDataWindSpeed"></span>
+												</br>
+						      					<span>Longitude:</span>
+												<span id="weatherDataCoordLon"></span>
+												</br>
+												<span>Latitude:</span>
+												<span id="weatherDataCoordLat"></span>
+						    </div>
+						  </div>
+						  <div class="card p-3">
+						    <blockquote class="blockquote mb-0 card-body">
+						    					<span id="weatherDataMainPressure"></span>
+												<span id="weatherDataMainHumidity"></span>
+												</br>
+						     					 <span>Id:</span>
+												<span id="weatherWId"></span>
+												</br>
+												<span>Stations:</span>
+												<span id="weatherDataBaseStations"></span>
+						    </blockquote>
+						  </div>
+						  
+						  <div class="card bg-primary text-white text-center p-3" id="maincard">
+						    <blockquote class="blockquote mb-0">
+						    	<span id="weatherWMain"></span>
+												</br>
+								<div id="weatherWIcon"></div>
+								<span id="weatherWDescription"></span>
+								<span id="weatherDataMainTemp"></span>
+						    </blockquote>
+						  </div>
+						  <div class="card">
+						    <div class="card-body">
+						      					<span id="weatherDataWindDeg"></span>
+												<span id="weatherDataClouds"></span>
+												<span id="weatherDataDt"></span>
+						    </div>
+						  </div>
+						  <div class="card p-3">
+						    <blockquote class="blockquote mb-0">
+						      <span id="weatherDataSysMes"></span>
+												<span id="weatherDataSysSunr"></span>
+												<span id="weatherDataSysSuns"></span>
+									
+						    </blockquote>
+						  </div>
+						</div>
+					</div>
+		</div>
+	</div>
+
+	<p class="text-center">Manufactured by <a href="https://github.com/fduque" target="_blank">duQ</a></p>
+
+<script src="script.js"></script>
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

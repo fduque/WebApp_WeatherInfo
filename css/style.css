@@ -1,0 +1,35 @@
+.background-wrap {
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+
+body {
+	opacity: 1;
+}
+
+div.jumbotron {
+	opacity: 1;
+	background-color: transparent;
+}
+
+div.container {
+	font-style: Open Sans, serif;
+	color: white;
+}
+
+div.card {
+	color: gray;
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+#weatherDataMainTemp {
+font-size: 84px;
+font-style: bold;
+}
